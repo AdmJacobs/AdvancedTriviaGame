@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 function timeoutLoss() {
   unansweredTally++;
-  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://media1.giphy.com/media/NjevnbNiUmeLm/200.webp?cid=3640f6095c03495b6d62643149830b4e'>";
+  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://giphy.com/gifs/cuckoo-ummm-HjzfvNHT3Hmms'>";
   $("#content").html(gameHTML);
   setTimeout(wait, 5000);
 }
@@ -51,7 +51,7 @@ function generateWin() {
 
 function generateLoss() {
   incorrectTally++;
-  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://media1.giphy.com/media/NjevnbNiUmeLm/200.webp?cid=3640f6095c03495b6d62643149830b4e'>";
+  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://giphy.com/gifs/lQ7MZzxAHHFikzh2Cz'>"
   $("#content").html(gameHTML);
   setTimeout(wait, 5000);
 }
@@ -103,7 +103,7 @@ var openScreen;
 var gameHTML;
 var counter = 45;
 var questionArray =
-  ["How long have Cats been domesticated?", "Which of the following is the most popular pet in the US and UK?", "Cats have how many teeth?", "How much better can Cats see in low light compared to Humans?", "Why do Cats rub up againgst us?", "How fast can Cats travel?", "What is the record for the most Cats kept by one person?", "Which of the following can a Cat not taste?"];
+  ["How long have Cats been domesticated?", "Which of the following is the most popular pet in the US and UK?", "Cats have how many teeth?", "How much better can Cats see in low light compared to Humans?", "Why do Cats rub up against us?", "How fast can Cats travel?", "What is the record for the most Cats kept by one person?", "Which of the following can a Cat not taste?"];
 
 var answerArray = [
   ["4000 years", "3000 years", "2000 years", "1000 years"],
@@ -136,7 +136,7 @@ var correctAnswers =
     "B. Sweetness"];
 
 var questionCounter = 0;
-var selecterAnswer;
+var selectAnswer;
 var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
