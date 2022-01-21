@@ -136,7 +136,7 @@ var correctAnswers =
     "B. Sweetness"];
 
 var questionCounter = 0;
-var selectAnswer;
+var selecterAnswer;
 var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
