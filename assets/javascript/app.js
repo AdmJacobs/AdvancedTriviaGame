@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 function timeoutLoss() {
   unansweredTally++;
-  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://giphy.com/gifs/cuckoo-ummm-HjzfvNHT3Hmms'>";
+  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img src=https://media.giphy.com/media/ASvQ3A2Q7blzq/giphy.gif'>";
   $("#content").html(gameHTML);
   setTimeout(wait, 5000);
 }
@@ -51,7 +51,7 @@ function generateWin() {
 
 function generateLoss() {
   incorrectTally++;
-  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</p>" + "<img src='https://giphy.com/gifs/lQ7MZzxAHHFikzh2Cz'>"
+  gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</p>" + "<img src= https://media.giphy.com/media/ASvQ3A2Q7blzq/giphy.gif'>"
   $("#content").html(gameHTML);
   setTimeout(wait, 5000);
 }
@@ -136,7 +136,7 @@ var correctAnswers =
     "B. Sweetness"];
 
 var questionCounter = 0;
-var selecterAnswer;
+var selectedAnswer;
 var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
